@@ -5,7 +5,7 @@ const SingalTopic = ({ topic }) => {
     const { id, name, logo } = topic;
     return (
 
-        <div className='bg-gray-100 p-2 rounded shadow-lg'>
+        <div className='bg-blue-400 p-2 rounded shadow-lg'>
             <img
                 className='object-cover w-50 h-50 mb-6 rounded shadow-lg md:h-56 xl:h-60'
                 src={logo}
@@ -18,7 +18,7 @@ const SingalTopic = ({ topic }) => {
                     <Link to={`/quiz/${id}`}>
                         <button
                             type="button"
-                            className="px-4 py-1 m-2 text-lg font-semibold rounded-full  text-gray-900 hover:bg-cyan-400 bg-cyan-200"
+                            className="px-4 py-1 m-2 text-lg font-semibold rounded-full  text-gray-900 hover:bg-yellow-600 bg-yellow-400 hover:text-white"
                         >
                             Start Practice
                         </button>
