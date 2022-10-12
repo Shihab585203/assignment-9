@@ -8,8 +8,8 @@ const Statistics = () => {
     return (
         <div >
             <div className='mt-10'>
-                <LineChart width={500}
-                    height={300}
+                <LineChart width={550}
+                    height={350}
                     data={totalsData}>
                     <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
                     <XAxis dataKey="name" />
