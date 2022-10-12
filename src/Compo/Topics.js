@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLoaderData } from 'react-router-dom'
+import { useLoaderData } from 'react-router-dom'
 import SingalTopic from './SingalTopic';
 
 const Topics = () => {
@@ -10,7 +10,7 @@ const Topics = () => {
             <div className="bg-gray-100">
                 <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-10 md:py-10 md:px-10 lg:px-32 text-gray-900">
                     <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-gray-800">
-                        Welcome To Quizizz for Fun
+                        Welcome To Mega Quiz Ground
                     </h1>
                     <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-gray-900">
                         Best Quiz wesite For programmer Hero. The Best Quiz Website for Web devvelopar.
