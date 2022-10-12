@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="shadow-lg">
-      <div className="navbar bg-base-300 ">
+      <div className="navbar bg-blue-300 ">
         <div className="flex-1">
           <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">
             MegaQuiz

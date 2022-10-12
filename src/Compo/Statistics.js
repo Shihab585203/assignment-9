@@ -1,13 +1,13 @@
 import React from 'react'
 import { useLoaderData } from 'react-router'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip,  } from 'recharts';
 
 const Statistics = () => {
     const totals = useLoaderData();
     const totalsData = totals.data;
     return (
         <div >
-            <div className='mt-10 '>
+            <div className='mt-10'>
                 <LineChart width={500}
                     height={300}
                     data={totalsData}>
@@ -18,8 +18,6 @@ const Statistics = () => {
                     <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
 
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
-
-
                 </LineChart>
             </div>
         </div>
